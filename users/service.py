@@ -5,8 +5,9 @@ from likes.models import Like
 
 class LikeFilter(filters.FilterSet):
 
-    date = filters.RangeFilter()
+    date_start = filters.RangeFilter()
+    date_to = filters.RangeFilter()
 
     class Meta:
         model = Like
-        fields = ['date',]
+        fields = ['date_start', 'date_to']
