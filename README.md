@@ -1,6 +1,6 @@
 # Social network test task
 
-Object of this task is to create a simple REST API.
+Object of this task is to create a simple REST API.`<br />
 Requirements and used technologies
  1. **djangorestframework** - base framework
  2. **djangorestframework-simplejwt** - package for JWT tokens implementation  
