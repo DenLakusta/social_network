@@ -32,8 +32,8 @@ Database credentials and Django **SECRET_KEY** should be saved in **.env** file
 
 ### Basic Features:
 
-user signup: ```http://127.0.0.1:8000/api/users/signup/```<br />
-user login: ```http://127.0.0.1:8000/api/token/```<br />
+user signup: ```http://127.0.0.1:8000/api/users/signup/```(JWT token will be recieved in response)<br />
+user login: ```http://127.0.0.1:8000/api/token/```(JWT token will be recieved in response)<br />
 post creation: ```http://127.0.0.1:8000/api/posts/post/create/```<br />
 post like: ```http://127.0.0.1:8000/api/likes/like/1/``` (1 - post id)<br />
 post unlike: ```http://127.0.0.1:8000/api/likes/unlike/1/```<br />
