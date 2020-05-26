@@ -7,7 +7,7 @@ Object of this task is to create a simple REST API.<br />
  2. **djangorestframework-simplejwt** - package for JWT tokens implementation  
  3. **drf-yasg** - package for swagger creation
  4. **psycopg2-binary** - for using PostgreSQL
- 5. **python-dotenv** - package to use enviroment variables (DB credentials and other secrets) 
+ 5. **python-dotenv** - package to use enviroment variables (store DB credentials and other secrets) 
  6. **django-filter** - packeage for creating custom filters
  
  All requirement are stored in requirements.txt file
